@@ -1,5 +1,6 @@
 from keras import backend as K
 from keras.layers import Convolution2D
+from keras import activations
 
 
 class MaxMinConvolution2D(Convolution2D):
@@ -21,7 +22,7 @@ class MaxMinConvolution2D(Convolution2D):
             (ie. "linear" activation: a(x) = x).
     """
 
-    def __init__(self, nb_filter, nb_row, nb_col, activation=None **kwargs):
+    def __init__(self, nb_filter, nb_row, nb_col, activation=None, **kwargs):
         """Initialize this layer."""
 
         # To be applied after concatenation, while activation of internal 
