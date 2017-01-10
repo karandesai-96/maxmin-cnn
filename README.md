@@ -23,7 +23,9 @@ The complete implementation is done using **Keras** library of Python. One does 
 
 **NOTE**: I have modified the default Keras Logger and then built Keras from source, so the verbose outputs are a bit different than those obtained by using versioned release of Keras. It is just to keep this notebook less cluttered and does not affect the results in any way. Do not worry if you are not able to reproduce the same output log on your machine.
 
-
+Implementation on caffe
+----------------------
+for more details please check out **`maxmin-cnn_with_caffe.ipynb`**
 TO-DOs
 ------
 
